@@ -74,10 +74,8 @@ const Merchandise = () => {
             />
           </div>
           <div className="flex justify-center items-center">
-            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl   hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300  sm:w-auto px-5  text-center">
-              <a target="_blank" href="/" rel="noreferrer">
-                Buy Now
-              </a>
+            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl   hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300  sm:w-auto px-5  text-center disabled">
+                 Coming Soon
             </button>
           </div>
         </>
@@ -104,14 +102,8 @@ const Merchandise = () => {
             />
           </div>
           <div className="flex justify-center items-center">
-            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl   hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300  sm:w-auto px-5  text-center">
-              <a
-                target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfDGIfinEMyfPeJ-tGQl5UXJHXFaYVh6vBzE82tDfrFMqGybA/viewform"
-                rel="noreferrer"
-              >
-                Buy Now
-              </a>
+            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl   hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300  sm:w-auto px-5  text-center disabled">
+                Coming Soon
             </button>
           </div>
         </>

@@ -67,14 +67,14 @@ function App() {
             </Suspense>
           }
         ></Route>
-        <Route
+        {/* <Route
           path="/Register"
           element={
             <Suspense fallback={<Loading />}>
               <Register />
             </Suspense>
           }
-        ></Route>
+        ></Route> */}
         <Route
           path="/About"
           element={

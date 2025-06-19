@@ -124,7 +124,7 @@ function Form() {
           <Input
             type="text"
             id="name"
-            placeholder="eg. Koushal Kumar"
+            placeholder="eg. Prasad Shinde"
             onChange={handleChange}
             value={formValues.name}
             name="name"
@@ -138,7 +138,7 @@ function Form() {
           <Input
             type="email"
             id="email"
-            placeholder="eg. koushalkumar@gmail.com"
+            placeholder="eg. prasadshinde@gmail.com"
             onChange={handleChange}
             value={formValues.email}
             name="email"
@@ -152,7 +152,7 @@ function Form() {
           <Input
             type="tel"
             id="contact"
-            placeholder="eg. 9876543210"
+            placeholder="eg.  12345678900"
             onChange={handleChange}
             value={formValues.contact}
             name="contact"

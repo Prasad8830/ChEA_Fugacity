@@ -41,7 +41,7 @@ const Footer = () => {
           Follow Us
         </h4>
 
-        <div className="grid grid-cols-4 my-0 mx-auto max-w-[700px] text-[2.8em] text-[#0A4D34] ">
+        <div className="grid grid-cols-3 my-0 mx-auto max-w-[400px] text-[2.8em] text-[#0A4D34] ">
           <div className="hover:translate-y-[-10px] transition-all ease-in-out duration-150">
             <a
               href="https://www.facebook.com/cheaiitkgp"
@@ -74,17 +74,6 @@ const Footer = () => {
             >
               <FontAwesomeIcon icon={faInstagram} color="#E1306C" />
               <span className="hidden">Instagram</span>
-            </a>
-          </div>
-          <div className="hover:translate-y-[-10px] transition-all ease-in-out duration-150">
-            <a
-              href="https://twitter.com/cheaiitkgp"
-              aria-label="Visit our twitter profile"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} color="#1DA1F2" />
-              <span className="hidden">Twitter</span>
             </a>
           </div>
         </div>
