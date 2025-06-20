@@ -57,7 +57,7 @@ const ContactUs = () => {
         Our Team
       </h2>
 
-      <div className="flex justify-center items-center">
+      {/* <div className="flex justify-center items-center">
         <CardContact
           name="Koushal Kumar"
           position="Vice President"
@@ -65,9 +65,9 @@ const ContactUs = () => {
           phone="8709192811"
           url={koushal}
         />
-      </div>
+      </div> */}
       {/* <CardContact name="S.S.S Vardhan" position="UG Representative" email="sesettyssvardhan@gmail.com" phone="8639789316" url={Vardhan} /> */}
-      <div className="flex flex-col gap-2 lg:flex-row justify-around items-center mt-10 max-w-[1000px] mx-auto">
+      {/* <div className="flex flex-col gap-2 lg:flex-row justify-around items-center mt-10 max-w-[1000px] mx-auto">
         <CardContact
           name="Suraj Padmanabh Shet"
           position="PG Representative"
@@ -89,10 +89,10 @@ const ContactUs = () => {
           phone="9971968380"
           url={rupesh}
         />
-      </div>
-      <h3 className="text-center font-nunito text-darkMain  text-2xl font-bold my-3 p-4 underline">
+      </div> */}
+      {/* <h3 className="text-center font-nunito text-darkMain  text-2xl font-bold my-3 p-4 underline">
         Team Heads
-      </h3>
+      </h3> */}
 
       <div
         id="tech"

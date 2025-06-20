@@ -39,6 +39,22 @@ function Schedule() {
       >
         Schedule
       </h1>
+      
+      {/* Stay tuned message for 2025 */}
+      <div className="flex justify-center items-center mt-10 mb-20 pb-1" data-aos="fade-up">
+        <div className="text-center max-w-md mx-auto p-8 bg-darkPrimary rounded-lg mb-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-lightPrimary mb-4">
+            Stay Tuned!
+          </h2>
+          <p className="text-lg text-lightPrimary">
+            The schedule for Fugacity 2025 will be announced soon. 
+            Keep checking back for updates!
+          </p>
+        </div>
+      </div>
+
+      {/* Commented out 2024 schedule */}
+      {/*
       <div className="flex justify-center items-center gap-10">
         <button
           className={`px-5 rounded-lg  py-2 bg-darkPrimary text-lightPrimary m-2 font-bold text-xl ${
@@ -142,6 +158,7 @@ function Schedule() {
           </div>
         </>
       )}
+      */}
     </div>
   );
 }
