@@ -20,10 +20,6 @@ export const NavItem = [
     href: "/merchandise",
   },
   {
-    title: "Register Here",
-    href: "/register",
-  },
-  {
     title: "Contact Us",
     href: "/contact",
   },

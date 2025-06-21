@@ -3,6 +3,7 @@ import eventDetails from "./eventDetails";
 import EventCard from "./EventCard";
 import EventShortCard from "./EventShortCard";
 import AOS from "aos";
+import PreviousEvents from "./PreviousEvents";
 const Events = () => {
   useEffect(() => {
     window.scroll(0, 0);
@@ -10,15 +11,15 @@ const Events = () => {
   return (
     <div className="pt-36 flex flex-col justify-center items-center bg-darkSecondary">
       <h1 className="text-center text-3xl md:text-5xl font-bold text-darkMain font-nunito my-5">
-        Events
+         Previous Events
       </h1>
-      <div className="grid justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-3 m-10">
+      {/* <div className="grid justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-3 m-10">
         {eventDetails.map((event) => {
           return <EventShortCard title={event.title} url={event.url2} />;
         })}
-      </div>
+      </div> */}
       {/* <ShortEvent/> */}
-      <ul className="flex w-full flex-col m-2 lg:m-10 ">
+      {/* <ul className="flex w-full flex-col m-2 lg:m-10 ">
         {eventDetails.map((event) => {
           return (
             <div>
@@ -37,7 +38,8 @@ const Events = () => {
             </div>
           );
         })}
-      </ul>
+      </ul> */}
+      <PreviousEvents/>
     </div>
   );
 };
