@@ -53,7 +53,7 @@ const About = () => {
                 Department, IIT Kharagpur, organised by the Chemical Engineering
                 Association and Kharagpur Regional Chapter, Indian Institute of
                 Chemical Engineers. The fest is to be held on 30th and 31st
-                March this year. Over 1500 enthusiastic 
+                August this year. Over 1500 enthusiastic 
                 participants from various IITs, NITs and other reputed colleges
                 across the country will be competing in an array of events lined
                 up over the two days. Esteemed Professors across the globe,

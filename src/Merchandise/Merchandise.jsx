@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import { useState } from "react";
+import AOS from "aos";
 import "./Merchandise.css";
 import MerchCard from "./MerchCard";
 import { Link } from "react-router-dom";
@@ -11,22 +12,38 @@ const Merchandise = () => {
   const polo_front = `/images/tshirt1.jpeg`;
   const polo_back = `/images/tshirt2.jpeg`;
   const [merch, setMerch] = useState("T-shirt");
+  
   useEffect(() => {
+    AOS.init({ duration: 2000 });
     window.scroll(0, 0);
   }, []);
 
   return (
     <div
-      className="pt-36 w-full bg-darkSecondary pb-5"
-      // style={{
-      //   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`,
-      //   backgroundSize: "cover",
-      // }}
+      className="pt-28 w-full overflow-hidden bg-darkSecondary pb-5"
+      id="schedule"
     >
-      <h1 className="text-center text-3xl md:text-5xl font-bold font-nunito text-darkMain my-3 p-4">
-        Merchandise
+      <h1
+        className="text-center text-3xl md:text-5xl font-bold font-nunito text-darkMain my-3 p-4"
+        data-aos="fade-down"
+      >
+        Merchadise
       </h1>
+      
+      {/* Stay tuned message for 2025 */}
+      <div className="flex justify-center items-center mt-10 mb-20 pb-8" data-aos="fade-up">
+        <div className="text-center max-w-md mx-auto p-8 bg-darkPrimary rounded-lg mb-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-lightPrimary mb-4">
+            Stay Tuned!
+          </h2>
+          <p className="text-lg text-lightPrimary">
+            New merchandise designs for 2025 will be revealed soon. Keep checking back for updates!
+          </p>
+        </div>
+      </div>
 
+      {/* Commented out 2024 merchandise */}
+      {/*
       <div className="flex justify-center items-center">
         <p className="text-white px-6 mb-6 text-center">
           Hola Chemical Engineers! The wait is finally over, ChEA IIT Kharagpur
@@ -35,7 +52,7 @@ const Merchandise = () => {
       </div>
       <div className="flex justify-center items-center gap-10">
         <button
-          className={`px-5 rounded-lg  py-2 bg-darkPrimary text-lightPrimary m-2 font-bold text-xl ${
+          className={`px-5 rounded-lg py-2 bg-darkPrimary text-lightPrimary m-2 font-bold text-xl ${
             merch === "T-shirt" && "underline"
           }`}
           onClick={() => setMerch("T-shirt")}
@@ -43,7 +60,7 @@ const Merchandise = () => {
           Polo T-shirt
         </button>
         <button
-          className={`px-5 rounded-lg bg-darkPrimary text-lightPrimary py-2  m-2 font-bold text-xl ${
+          className={`px-5 rounded-lg bg-darkPrimary text-lightPrimary py-2 m-2 font-bold text-xl ${
             merch === "Varsity" && "underline"
           }`}
           onClick={() => setMerch("Varsity")}
@@ -51,7 +68,6 @@ const Merchandise = () => {
           Varsity
         </button>
       </div>
-
       {merch === "T-shirt" && (
         <>
           <div
@@ -74,10 +90,8 @@ const Merchandise = () => {
             />
           </div>
           <div className="flex justify-center items-center">
-            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl   hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300  sm:w-auto px-5  text-center">
-              <a target="_blank" href="/" rel="noreferrer">
-                Buy Now
-              </a>
+            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 sm:w-auto px-5 text-center disabled">
+              Coming Soon
             </button>
           </div>
         </>
@@ -104,18 +118,13 @@ const Merchandise = () => {
             />
           </div>
           <div className="flex justify-center items-center">
-            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl   hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300  sm:w-auto px-5  text-center">
-              <a
-                target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfDGIfinEMyfPeJ-tGQl5UXJHXFaYVh6vBzE82tDfrFMqGybA/viewform"
-                rel="noreferrer"
-              >
-                Buy Now
-              </a>
+            <button className="rounded-[4px] bg-[#20CD8D] mt-5 text-lightPrimary py-2 font-bold text-xl hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 sm:w-auto px-5 text-center disabled">
+              Coming Soon
             </button>
           </div>
         </>
       )}
+      */}
     </div>
   );
 };
