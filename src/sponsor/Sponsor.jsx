@@ -8,8 +8,9 @@ const Sponsers = () => {
   const logoIiiche = `${process.env.PUBLIC_URL}/images/logos/logoiiche.svg`;
   const ved = `${process.env.PUBLIC_URL}/images/vedanta colored logo.png`;
   const Altamira = `${process.env.PUBLIC_URL}/images/Altamira Logo.png`;
+  const Haldiya = `${process.env.PUBLIC_URL}/images/Title_Sponsor.svg`;
 
-  const [year, setYear] = useState(2024);
+  const [year, setYear] = useState(2025);
   const [isMore, setIsMore] = useState(false);
   useEffect(() => {
     window.scroll(0, 0);
@@ -43,6 +44,14 @@ const Sponsers = () => {
           onClick={() => setYear(2024)}
         >
           2024
+        </button>
+        <button
+          className={`px-5 rounded-lg bg-darkPrimary text-lightPrimary py-2  m-2 font-bold text-xl ${
+            year === 2025 && "underline"
+          }`}
+          onClick={() => setYear(2025)}
+        >
+          2025
         </button>
       </div>
       <div className="flex  justify-center items-center w-full my-5">
@@ -81,7 +90,7 @@ const Sponsers = () => {
           <div className="w-full flex flex-col justify-evenly items-center text-lightSecondary font-avenir ">
             <img
               src={nfit}
-              className="w-[70%]  rounded-lg "
+              className="w-[100%] md:w-[50%] rounded-lg"
               alt="nfitLogo"
               title="nfitLogo"
               width={100}
@@ -119,6 +128,19 @@ const Sponsers = () => {
               title="altamiraLogo"
               height={100}
               width={100}
+              loading="lazy"
+            />
+          </div>
+        )}
+        {year === 2025 && (
+          <div className="w-full max-w-[1000px] gap-[30px] p-10 flex flex-col md:flex-row justify-around   items-center text-lightSecondary font-avenir ">
+            <img
+              src={Haldiya}
+              className="w-[100%] md:w-[60%] rounded-lg"
+              alt="haldiyaLogo"
+              title="haldiyaLogo"
+              width={100}
+              height={100}
               loading="lazy"
             />
           </div>

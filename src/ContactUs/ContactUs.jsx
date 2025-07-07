@@ -7,6 +7,7 @@ const ContactUs = () => {
   const rishi = `/images/heads/Rishi.webp`;
   const ganesh = `/images/heads/Ganesh.webp`;
   const naveen = `/images/heads/Naveen.webp`;
+  const saakshi = `/images/heads/Saakshi.webp`;
   const hod = `/images/heads/HOD.webp`;
   const facad = `/images/heads/Facad.jpg`;
   const proffIncharge = `/images/heads/proffIncharge.png`;
@@ -35,14 +36,14 @@ const ContactUs = () => {
           name="Prof. Koustuv Ray"
           position="ChEA Incharge"
           email="koustuv@che.iitkgp.ac.in"
-          phone="8090829640"
+          phone="3222-284582"
           url={facad}
         />
         <CardContact
           name="Prof. Swambabu Varanasi"
           position="Professor Incharge"
           email="swambabu@che.iitkgp.ac.in"
-          phone="97604348880"
+          phone=""
           url={proffIncharge}
         />
       </div>
@@ -68,7 +69,7 @@ const ContactUs = () => {
           email="ankitanand3027@gmail.com"
           phone="7413027632"
           url={ankit}
-          link = "https://www.linkedin.com/in/ankitanand30"
+          link = "https://www.linkedin.com/in/ankitanand30/"
         />
       </div>
       <div
@@ -78,7 +79,7 @@ const ContactUs = () => {
         <CardContact
           name="Ayush Kumar Maurya"
           position="Sponsorship Team Head"
-          email=""
+          email="ayush.maurya.iitkgp@gmail.com"
           phone="8604336024"
           url={ayush}
           link="https://www.linkedin.com/in/ayush-kumar-maurya-065b14290/"
@@ -96,7 +97,7 @@ const ContactUs = () => {
         <CardContact
           name="Naveen G"
           position="Events Team Head"
-          email=""
+          email="naveen7115ether@gmail.com"
           phone="8247365739"
           url={naveen}
           link="https://www.linkedin.com/in/naveen-g-9785ba323/"
@@ -107,21 +108,22 @@ const ContactUs = () => {
           email="naiknagesh38656@gmail.com"
           phone="9390330178"
           url={ganesh}
-          link="https://www.linkedin.com/in/ganesh-bhukya-081b352a9"
+          link="https://www.linkedin.com/in/ganesh-bhukya-081b352a9/"
         />
         <CardContact
-          name="Ayush Kumar Maurya"
+          name="Saakshi Baranwal"
           position="Events Team Head"
-          email=""
-          phone="8604336024"
-          url={ayush}
+          email="saakshibaranwal22@gmail.com"
+          phone="8918732423"
+          url={saakshi}
+          link="https://www.linkedin.com/in/saakshi-baranwal-977a0b28a/"
         />
         <CardContact
-          name="Ayush Kumar Maurya"
+          name="Akshat Kumar"
           position="Events Team Head"
           email=""
-          phone="8604336024"
-          url={ayush}
+          phone="8329057541"
+        
         />
       </div>
     </div>
