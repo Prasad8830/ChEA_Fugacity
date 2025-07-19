@@ -88,36 +88,37 @@ const Home = () => {
         ></hr> */}
 
         <div className="w-full py-12 px-4">
-          <div className="max-w-6xl mx-auto">
-            {/* Section Header */}
-            <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-white mb-2 tracking-wide">
-                Title Sponsor
-              </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto rounded-full"></div>
-            </div>
-
-            {/* Sponsor Card */}
-            <div className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-3xl py-4 border border-slate-700/30 shadow-2xl">
-              <div className="flex items-center justify-center">
-                <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-4 py-1 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 w-3/5">
-                  <img
-                    src={title}
-                    alt="Haldia Refinery - Title Sponsor"
-                    className="object-contain"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </div>
-            {/* Partnership Text */}
-            <div className="text-center mt-6">
-              <p className="text-slate-300 text-md font-medium">
-                Proudly Partnered with Industry Leaders
-              </p>
-            </div>
-          </div>
+  <div className="max-w-6xl mx-auto">
+    {/* Section Header */}
+    <div className="text-center mb-8">
+      <h2 className="text-4xl font-bold text-white mb-2 tracking-wide">
+        Title Sponsor
+      </h2>
+      <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto rounded-full"></div>
+    </div>
+    
+    {/* Sponsor Card */}
+    <div className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-3xl py-4 border border-slate-700/30 shadow-2xl">
+      <div className="flex items-center justify-center px-4 sm:px-0">
+        <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-4 py-1 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 w-full sm:w-3/5">
+          <img
+            src={title}
+            alt="Haldia Refinery - Title Sponsor"
+            className="object-contain w-full h-auto"
+            loading="lazy"
+          />
         </div>
+      </div>
+    </div>
+    
+    {/* Partnership Text */}
+    <div className="text-center mt-6">
+      <p className="text-slate-300 text-md font-medium">
+        Proudly Partnered with Industry Leaders
+      </p>
+    </div>
+  </div>
+</div>
 
       </section>
       <About />
