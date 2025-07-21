@@ -112,11 +112,7 @@ const Home = () => {
     </div>
     
     {/* Partnership Text */}
-    <div className="text-center mt-6">
-      <p className="text-slate-300 text-md font-medium">
-        Proudly Partnered with Industry Leaders
-      </p>
-    </div>
+    
   </div>
 </div>
 
