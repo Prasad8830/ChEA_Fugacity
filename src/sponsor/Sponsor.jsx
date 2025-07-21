@@ -20,7 +20,7 @@ const Sponsers = () => {
       <h1 className="text-center text-3xl md:text-5xl font-bold font-nunito text-darkMain my-5">
         Sponsors
       </h1>
-      <div className="flex justify-center items-center m-5 gap-5 md:gap-10">
+      <div className="flex justify-center items-center m-5 gap-auto md:gap-10">
         <button
           className={`px-5 rounded-lg  py-2 bg-darkPrimary text-lightPrimary m-2 font-bold text-xl ${
             year === 2022 && "underline"
@@ -90,7 +90,7 @@ const Sponsers = () => {
           <div className="w-full flex flex-col justify-evenly items-center text-lightSecondary font-avenir ">
             <img
               src={nfit}
-              className="w-[100%] md:w-[50%] rounded-lg"
+              className="w-[100%] md:w-[50%] rounded-[1.2rem] px-2"
               alt="nfitLogo"
               title="nfitLogo"
               width={100}
@@ -133,10 +133,10 @@ const Sponsers = () => {
           </div>
         )}
         {year === 2025 && (
-          <div className="w-full max-w-[1000px] gap-[30px] p-10 flex flex-col md:flex-row justify-around   items-center text-lightSecondary font-avenir ">
+          <div className="w-full max-w-[1000px] gap-[30px] p-5 md:p-10 flex flex-col md:flex-row justify-around items-center text-lightSecondary font-avenir">
             <img
               src={Haldiya}
-              className="w-[100%] md:w-[60%] rounded-lg"
+              className="w-[80%] md:w-[60%] rounded-lg"
               alt="haldiyaLogo"
               title="haldiyaLogo"
               width={100}

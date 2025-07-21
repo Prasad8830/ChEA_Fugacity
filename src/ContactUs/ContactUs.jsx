@@ -8,6 +8,8 @@ const ContactUs = () => {
   const ganesh = `/images/heads/Ganesh.webp`;
   const naveen = `/images/heads/Naveen.webp`;
   const saakshi = `/images/heads/Saakshi.webp`;
+  const prem = `/images/heads/Prem_Kumar.webp`;
+  const akshat = `/images/heads/Akshat_Kumar.webp`;
   const hod = `/images/heads/HOD.webp`;
   const facad = `/images/heads/Facad.jpg`;
   const proffIncharge = `/images/heads/proffIncharge.png`;
@@ -121,9 +123,18 @@ const ContactUs = () => {
         <CardContact
           name="Akshat Kumar"
           position="Events Team Head"
-          email=""
+          email="08akshatkumar@gmail.com"
           phone="8329057541"
-        
+          url={akshat}
+          link="https://www.linkedin.com/in/akshat-kumar-100a6027b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BTlBplUjZSuW337jRDzFn0A%3D%3D"
+        />
+        <CardContact
+          name="Prem Kumar Bodigadla"
+          position="Events Team Head"
+          email="prembhashyam9948@gmail.com"
+          phone="7386909956"
+          url={prem}
+          link="https://www.linkedin.com/in/prem-kumar-bodigadla-0854622a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         />
       </div>
     </div>
