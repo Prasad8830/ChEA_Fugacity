@@ -31,7 +31,7 @@ const ContactUs = () => {
           email="che_hod@che.iitkgp.ac.in"
           phone="3222-282249"
           url={hod}
-          link="https://www.linkedin.com/in/prasad-shinde-87a559289/"
+          link="https://www.linkedin.com/in/sudiptochakraborty/"
         />
 
         <CardContact
@@ -40,6 +40,7 @@ const ContactUs = () => {
           email="koustuv@che.iitkgp.ac.in"
           phone="3222-284582"
           url={facad}
+          link="https://www.linkedin.com/in/koustuv-ray-21b98a95/"
         />
         <CardContact
           name="Prof. Swambabu Varanasi"
@@ -126,7 +127,7 @@ const ContactUs = () => {
           email="08akshatkumar@gmail.com"
           phone="8329057541"
           url={akshat}
-          link="https://www.linkedin.com/in/akshat-kumar-100a6027b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BTlBplUjZSuW337jRDzFn0A%3D%3D"
+          link="https://www.linkedin.com/in/akshat-kumar-100a6027b/"
         />
         <CardContact
           name="Prem Kumar Bodigadla"
@@ -134,7 +135,7 @@ const ContactUs = () => {
           email="prembhashyam9948@gmail.com"
           phone="7386909956"
           url={prem}
-          link="https://www.linkedin.com/in/prem-kumar-bodigadla-0854622a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          link="https://www.linkedin.com/in/prem-kumar-bodigadla-0854622a9/"
         />
       </div>
     </div>
