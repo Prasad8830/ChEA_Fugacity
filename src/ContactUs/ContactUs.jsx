@@ -46,8 +46,9 @@ const ContactUs = () => {
           name="Prof. Swambabu Varanasi"
           position="Professor Incharge"
           email="swambabu@che.iitkgp.ac.in"
-          phone=""
+          phone="03222-283934"
           url={proffIncharge}
+          link="https://sites.google.com/view/swambabu"
         />
       </div>
       <h2 className="text-center text-3xl md:text-5xl font-bold font-nunito text-darkMain my-3 p-4">
