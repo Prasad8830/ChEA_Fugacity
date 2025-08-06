@@ -23,7 +23,7 @@ const ContactUs = () => {
       </h1>
       <div
         id="prof"
-        className="flex flex-col gap-2 lg:flex-row justify-around items-center mt-10 max-w-[1000px] mx-auto"
+        className="flex flex-col lg:flex-row gap-2 justify-around items-center mt-5 max-w-[1500px] mx-auto"
       >
         <CardContact
           name="Prof. Sudipto Chakraborty"
@@ -50,6 +50,22 @@ const ContactUs = () => {
           url={proffIncharge}
           link="https://sites.google.com/view/swambabu"
         />
+        <CardContact
+          name="Prof. Koustuv Ray"
+          position="ChEA Incharge"
+          email="koustuv@che.iitkgp.ac.in"
+          phone="3222-284582"
+          url={facad}
+          link="https://www.linkedin.com/in/koustuv-ray-21b98a95/"
+        />
+        <CardContact
+          name="Prof. Swambabu Varanasi"
+          position="Professor Incharge"
+          email="swambabu@che.iitkgp.ac.in"
+          phone="03222-283934"
+          url={proffIncharge}
+          link="https://sites.google.com/view/swambabu"
+        />
       </div>
       <h2 className="text-center text-3xl md:text-5xl font-bold font-nunito text-darkMain my-3 p-4">
         Our Team
@@ -57,7 +73,7 @@ const ContactUs = () => {
 
       <div
         id="tech"
-        className="flex flex-col gap-2 lg:flex-row justify-around items-center mt-5 max-w-[1000px] mx-auto"
+        className="flex flex-col gap-2 lg:flex-row justify-around items-center mt-5 max-w-[800px] mx-auto"
       >
         <CardContact
           name="Prasad Shinde"
