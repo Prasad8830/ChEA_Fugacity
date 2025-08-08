@@ -13,6 +13,8 @@ const ContactUs = () => {
   const hod = `/images/heads/HOD.webp`;
   const facad = `/images/heads/Facad.jpg`;
   const proffIncharge = `/images/heads/proffIncharge.png`;
+  const namrata = `/images/heads/Namrata.webp`;
+  const nikita = `/images/heads/Nikita.webp`;
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
@@ -51,20 +53,20 @@ const ContactUs = () => {
           link="https://sites.google.com/view/swambabu"
         />
         <CardContact
-          name="Prof. Koustuv Ray"
-          position="ChEA Incharge"
-          email="koustuv@che.iitkgp.ac.in"
-          phone="3222-284582"
-          url={facad}
-          link="https://www.linkedin.com/in/koustuv-ray-21b98a95/"
+          name="Prof. Namrata Gaikwad"
+          position="ChEA Coordinator"
+          email="namrata@che.iitkgp.ac.in	"
+          phone="3222-283944"
+          url={namrata}
+          link="https://www.linkedin.com/in/namrata-gaikwad-405137243/"
         />
         <CardContact
-          name="Prof. Swambabu Varanasi"
-          position="Professor Incharge"
-          email="swambabu@che.iitkgp.ac.in"
-          phone="03222-283934"
-          url={proffIncharge}
-          link="https://sites.google.com/view/swambabu"
+          name="Prof. Nikita Saxena"
+          position="ChEA Coordinator"
+          email="nks.iitkgp.ac.in"
+          phone=""
+          url={nikita}
+          link="https://www.linkedin.com/in/ns27/"
         />
       </div>
       <h2 className="text-center text-3xl md:text-5xl font-bold font-nunito text-darkMain my-3 p-4">
