@@ -52,7 +52,7 @@ const About = () => {
                 Fugacity is the departmental fest of the Chemical Engineering
                 Department, IIT Kharagpur, organised by the Chemical Engineering
                 Association and Kharagpur Regional Chapter, Indian Institute of
-                Chemical Engineers. The fest is to be held on 30th and 31st
+                Chemical Engineers. The fest is to be held on 30th
                 August this year. Over 1500 enthusiastic 
                 participants from various IITs, NITs and other reputed colleges
                 across the country will be competing in an array of events lined
