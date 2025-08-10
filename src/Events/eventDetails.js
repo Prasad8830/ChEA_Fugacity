@@ -28,7 +28,7 @@ const eventDetails=[
     description5: "",
     url1:optimiseIt,
     url2:caseStudy,
-    link:'',
+    link:'https://unstop.com/competitions/optimizeit-fugacity-2025-chemical-engineering-association-iit-kharagpur-1537779',
   },
   {
     title:"QUIZ BOWL",
@@ -39,7 +39,7 @@ const eventDetails=[
     description5:"",
     url1:chemQuiz,
     url2:quiz,
-    link:'https://unstop.com/quiz/chem-quiz-iit-kharagpur-941588',
+    link:'https://unstop.com/quiz/fugacity-quiz-bowl-fugacity-2025-chemical-engineering-association-iit-kharagpur-1537738',
   },
   {
     title:"CHEM-E-REEL",
