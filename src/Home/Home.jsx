@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <div id="home">
       <section
-        className="lg:h-[100vh] flex  flex-col justify-center items-center"
+        className="min-h-screen flex flex-col justify-center items-center"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${backgroundImage})`,
           backgroundSize: "cover",
@@ -58,7 +58,7 @@ const Home = () => {
                 Fugacity{" "}
               </h1>
             </section>
-            <h2 className="text-xl md:text-2xl font-bold mt-5 text-[#B3B3B3] font-avenir">
+            <h2 className="text-xl md:text-2xl font-bold mt-20 text-[#B3B3B3] font-avenir">
               30th August 2025
             </h2>
             <a
@@ -80,43 +80,62 @@ const Home = () => {
             />
           </div>
         </div>
-        {/* <hr
-          style={{
-            height: ismobile ? "25px" : "0px",
-            backgroundColor: "transparent",
-          }}
-        ></hr> */}
 
+        {/* Title Sponsor Section */}
         <div className="w-full py-12 px-4">
-  <div className="max-w-6xl mx-auto">
-    {/* Section Header */}
-    <div className="text-center mb-8">
-      <h2 className="text-4xl font-bold text-white mb-2 tracking-wide">
-        Title Sponsor
-      </h2>
-      <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto rounded-full"></div>
-    </div>
-    
-    {/* Sponsor Card */}
-    <div className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-3xl py-4 border border-slate-700/30 shadow-2xl">
-      <div className="flex items-center justify-center px-4 sm:px-0">
-        <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-4 py-1 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 w-full sm:w-3/5">
-          <img
-            src={title}
-            alt="Haldia Refinery - Title Sponsor"
-            className="object-contain w-full h-auto"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </div>
-    
-    {/* Partnership Text */}
-    
-  </div>
-</div>
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-8">
+              <h2 className="text-4xl font-bold text-white mb-2 tracking-wide">
+                Title Sponsor
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto rounded-full"></div>
+            </div>
 
+            {/* Sponsor Card */}
+            <div className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-3xl py-4 border border-slate-700/30 shadow-2xl">
+              <div className="flex items-center justify-center px-4 sm:px-0">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-4 py-1 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 w-full sm:w-3/5">
+                  <img
+                    src={title}
+                    alt="Haldia Refinery - Title Sponsor"
+                    className="object-contain w-full h-auto"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Platform Partner Section */}
+        <div className="w-full py-8 px-4 pb-16">
+          <div className="max-w-4xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2 tracking-wide">
+                Platform Partner
+              </h2>
+              <div className="w-14 sm:w-20 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto rounded-full"></div>
+            </div>
+            
+            {/* Platform Partner Card */}
+            <div className="bg-gradient-to-r from-slate-800/40 to-slate-900/40 backdrop-blur-sm rounded-2xl py-3 border border-slate-700/20 shadow-xl">
+              <div className="flex items-center justify-center px-4 sm:px-0">
+                <div className="bg-white/95 backdrop-blur-sm rounded-xl px-3 py-2 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-4/5 sm:w-2/5">
+                  <img
+                    src="/images/logos/unstopLogo.svg"
+                    alt="Unstop - Platform Partner"
+                    className="object-contain w-full h-auto"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      
       <About />
       {/* <section className=" py-10 bg-darkPrimary">
         <div className="container mx-auto flex justify-center items-center flex-col">
