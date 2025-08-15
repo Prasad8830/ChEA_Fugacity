@@ -38,7 +38,7 @@ const ContactUs = () => {
 
         <CardContact
           name="Prof. Koustuv Ray"
-          position="ChEA Incharge"
+          position="Professor Incharge"
           email="koustuv@che.iitkgp.ac.in"
           phone="3222-284582"
           url={facad}
@@ -54,7 +54,7 @@ const ContactUs = () => {
         />
         <CardContact
           name="Prof. Namrata Gaikwad"
-          position="ChEA Coordinator"
+          position="Professor Incharge"
           email="namrata@che.iitkgp.ac.in	"
           phone="3222-283944"
           url={namrata}
@@ -62,7 +62,7 @@ const ContactUs = () => {
         />
         <CardContact
           name="Prof. Nikita Saxena"
-          position="ChEA Coordinator"
+          position="Professor Incharge"
           email="nks.iitkgp.ac.in"
           phone=""
           url={nikita}
@@ -115,7 +115,7 @@ const ContactUs = () => {
           link = "https://www.linkedin.com/in/rishi-kushwaha-2baa88244/"
         />
       </div>
-      <div className="flex flex-col lg:flex-row gap-2 justify-around items-center mt-5 max-w-[1500px] mx-auto">
+      <div className="flex flex-col lg:flex-row gap-2 justify-around items-center mt-5 max-w-[1300px] mx-auto">
         <CardContact
           name="Naveen G"
           position="Events Team Head"
@@ -139,14 +139,6 @@ const ContactUs = () => {
           phone="8918732423"
           url={saakshi}
           link="https://www.linkedin.com/in/saakshi-baranwal-977a0b28a/"
-        />
-        <CardContact
-          name="Akshat Kumar"
-          position="Events Team Head"
-          email="08akshatkumar@gmail.com"
-          phone="8329057541"
-          url={akshat}
-          link="https://www.linkedin.com/in/akshat-kumar-100a6027b/"
         />
         <CardContact
           name="Prem Kumar Bodigadla"
