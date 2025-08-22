@@ -56,7 +56,7 @@ function Schedule() {
       {/* Commented out 2024 schedule */}
       
       <div className="flex justify-center items-center gap-10">
-        <button
+        {/* <button
           className={`px-5 rounded-lg  py-2 bg-darkPrimary text-lightPrimary m-2 font-bold text-xl ${
             day === "Day-1" && "underline"
           }`}
@@ -64,7 +64,7 @@ function Schedule() {
           data-aos="fade-right"
         >
           Day 1
-        </button>
+        </button> */}
         {/* <button
           className={`px-5 rounded-lg bg-darkPrimary text-lightPrimary py-2  m-2 font-bold text-xl ${
             day === "Day-2" && "underline"

@@ -2,10 +2,10 @@ const workshopDetails = [
   {
     title: "Simulation using COMSOL",
     description1: "📅 Date & Time: 30th August, 02:00 PM – 04:00 PM",
-    description2: "Learn the fundamentals of COMSOL Multiphysics simulation software in this comprehensive hands-on workshop.",
-    description3: "This workshop will cover the basics of setting up simulations, mesh generation, and solving various engineering problems using COMSOL's powerful finite element analysis capabilities.",
-    description4: "Participants will work through practical examples including heat transfer, fluid dynamics, and structural mechanics problems commonly encountered in chemical engineering.",
-    description5: "Perfect for students and professionals looking to enhance their simulation and modeling capabilities in chemical engineering applications.",
+    description2: "Introduction to COMSOL Multiphysics (20 mins.)",
+    description3: "Capability demonstration and module introduction specific to Chemical Engineering (Batteries, Fuel cell, Corrosion, electrochemistry) (40 mins)",
+    description4: "Hands-on demo session (1 hour)",
+    description5: "A trial version of COMSOL Multiphysics will be provided to all the attendees and registrants to explore the software.",
     url1: "/images/comsol-workshop.jpg", // You'll need to add this image
     link: "#comsol-workshop"
   },
