@@ -20,6 +20,7 @@ const Events = lazy(() => import("./Events/Events"));
 const Sponsor = lazy(() => import("./sponsor/Sponsor"));
 const Merchandise = lazy(() => import("./Merchandise/Merchandise"));
 const Register = lazy(() => import("./Register/Register"));
+const Workshops = lazy(() => import("./Workshops/Workshop"));
 
 function App() {
   return (
@@ -32,6 +33,14 @@ function App() {
           element={
             <Suspense fallback={<Loading />}>
               <Sponsor />
+            </Suspense>
+          }
+        ></Route>
+        <Route
+          path="/workshops"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Workshops />
             </Suspense>
           }
         ></Route>

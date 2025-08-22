@@ -4,6 +4,10 @@ export const NavItem = [
     href: "/",
   },
   {
+    title: "Workshops",
+    href: "/workshops",
+  },
+  {
     title: "Events",
     href: "/events",
   },

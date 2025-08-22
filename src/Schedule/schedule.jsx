@@ -41,7 +41,7 @@ function Schedule() {
       </h1>
       
       {/* Stay tuned message for 2025 */}
-      <div className="flex justify-center items-center mt-10 mb-20 pb-1" data-aos="fade-up">
+      {/* <div className="flex justify-center items-center mt-10 mb-20 pb-1" data-aos="fade-up">
         <div className="text-center max-w-md mx-auto p-8 bg-darkPrimary rounded-lg mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-lightPrimary mb-4">
             Stay Tuned!
@@ -51,10 +51,10 @@ function Schedule() {
             Keep checking back for updates!
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Commented out 2024 schedule */}
-      {/*
+      
       <div className="flex justify-center items-center gap-10">
         <button
           className={`px-5 rounded-lg  py-2 bg-darkPrimary text-lightPrimary m-2 font-bold text-xl ${
@@ -65,7 +65,7 @@ function Schedule() {
         >
           Day 1
         </button>
-        <button
+        {/* <button
           className={`px-5 rounded-lg bg-darkPrimary text-lightPrimary py-2  m-2 font-bold text-xl ${
             day === "Day-2" && "underline"
           }`}
@@ -73,7 +73,7 @@ function Schedule() {
           data-aos="fade-left"
         >
           Day 2
-        </button>
+        </button> */}
       </div>
 
       {day === "Day-1" && (
@@ -88,40 +88,54 @@ function Schedule() {
             data-aos="fade-up"
           >
             <ScheduleEle
-              time="09:30 AM"
-              event="Inauguration"
-              description="Opening ceremony of Fugacity 2024"
+              time="08:30 AM – 10:00 AM"
+              event="Code the Problem"
+              description="Programming Competition"
             />
             <ScheduleEle2
-              time="10:30 AM"
-              event="Paper Presentation"
-              description="Paper Presentation by participants"
+              time="10:00 AM – 11:00 AM"
+              event="Inauguration Ceremony"
+              description=""
             />
             <ScheduleEle
-              time="12:00 PM"
-              event="Chem Meme Challenge"
-              description="Meme Review of participants"
+              time="11:00 AM – 11:15 AM"
+              event="Tea Break"
+              description=""
             />
-            <ScheduleEle2 time="01:00 PM" event="Lunch" description="" />
+            <ScheduleEle2
+              time="11:15 AM – 01:00 PM"
+              event="Chemical Engineering Quiz Competition"
+              description=""
+            />
             <ScheduleEle
-              time="02:30 PM"
+              time="01:00 PM – 02:00 PM"
+              event="Lunch Break"
+              description=""
+            />
+            <ScheduleEle2
+              time="02:00 PM – 04:00 PM"
+              event="Optimize it competition"
+              description=""
+            />
+            <ScheduleEle
+              time="02:00 PM – 04:00 PM"
               event="Workshop"
-              description="Comsol Workshop"
+              description="Simulation using COMSOL"
             />
             <ScheduleEle2
-              time="04:00 PM"
-              event="Industrial Talk"
-              description="An hour long session by Prof. Jayanta Chakraborty"
+              time="04:00 PM – 05:00 PM"
+              event="Workshop"
+              description="Practical Way of Making Lithium-Ion Batteries"
             />
             <ScheduleEle
-              time="05:00 PM"
-              event="Code the problem"
-              description="Code the problem competetion"
+              time="05:00 PM – 05:30 PM"
+              event="Validator Function"
+              description="Concluding Session"
             />
           </div>
         </>
       )}
-      {day === "Day-2" && (
+      {/* {day === "Day-2" && (
         <>
           <div
             id="Day-2"
@@ -157,8 +171,8 @@ function Schedule() {
             <ScheduleEle2 time="06:00 PM" event="Dinner" description="" />
           </div>
         </>
-      )}
-      */}
+      )} */}
+     
     </div>
   );
 }

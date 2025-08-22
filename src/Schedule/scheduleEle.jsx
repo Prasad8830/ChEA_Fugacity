@@ -5,6 +5,7 @@ function ScheduleEle(props) {
   const [isHovered, setIsHovered] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const isMobile = windowWidth <= 768;
+  
   useEffect(() => {
     AOS.init({ duration: 2000 });
     const handleResize = () => {
@@ -15,6 +16,7 @@ function ScheduleEle(props) {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   return (
     <>
       <div
@@ -28,17 +30,17 @@ function ScheduleEle(props) {
         onMouseLeave={() => setIsHovered(false)}
       >
         <div
-          className="col-md-2 text-lg w-[25%]"
+          className={`col-md-2 text-lg ${isMobile ? 'w-[35%]' : 'w-[25%]'}`}
           style={{
             marginTop: "auto",
             marginBottom: "auto",
-            marginRight: 30,
-            marginLeft: 20,
+            marginRight: isMobile ? 15 : 30,
+            marginLeft: isMobile ? 10 : 20,
           }}
         >
-          <time>{props.time}</time>
+          <time className={isMobile ? 'text-sm leading-tight' : ''}>{props.time}</time>
         </div>
-        <div className="col-md-100 w-[75%]">
+        <div className={`col-md-100 ${isMobile ? 'w-[65%]' : 'w-[75%]'}`}>
           <h2
             style={{
               fontWeight: "bold",
