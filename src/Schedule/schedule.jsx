@@ -39,7 +39,7 @@ function Schedule() {
       >
         Schedule
       </h1>
-      
+
       {/* Stay tuned message for 2025 */}
       {/* <div className="flex justify-center items-center mt-10 mb-20 pb-1" data-aos="fade-up">
         <div className="text-center max-w-md mx-auto p-8 bg-darkPrimary rounded-lg mb-12">
@@ -54,7 +54,7 @@ function Schedule() {
       </div> */}
 
       {/* Commented out 2024 schedule */}
-      
+
       <div className="flex justify-center items-center gap-10">
         {/* <button
           className={`px-5 rounded-lg  py-2 bg-darkPrimary text-lightPrimary m-2 font-bold text-xl ${
@@ -88,49 +88,44 @@ function Schedule() {
             data-aos="fade-up"
           >
             <ScheduleEle
-              time="08:30 AM – 10:00 AM"
+              time="08:30 AM – 10:30 AM"
               event="Code the Problem"
-              description="Programming Competition"
+              description="Venue: CAPE Lab"
             />
             <ScheduleEle2
-              time="10:00 AM – 11:00 AM"
-              event="Inauguration Ceremony"
-              description=""
-            />
-            <ScheduleEle
-              time="11:00 AM – 11:15 AM"
+              time="10:30 AM – 11:00 AM"
               event="Tea Break"
-              description=""
-            />
-            <ScheduleEle2
-              time="11:15 AM – 01:00 PM"
-              event="Chemical Engineering Quiz Competition"
-              description=""
+              description="Venue: Outside AN Roy Seminar Hall"
             />
             <ScheduleEle
-              time="01:00 PM – 02:00 PM"
-              event="Lunch Break"
-              description=""
+              time="11:00 AM – 12:00 PM"
+              event="Inauguration Ceremony"
+              description="Venue: AN Roy Seminar Hall"
             />
             <ScheduleEle2
-              time="02:00 PM – 04:00 PM"
-              event="Optimize it competition"
-              description=""
-            />
-            <ScheduleEle
-              time="02:00 PM – 04:00 PM"
+              time="12:00 PM – 02:00 PM"
               event="Workshop"
-              description="Simulation using COMSOL"
+              description="Simulation using COMSOL | Venue: CAPE Lab"
+            />
+            <ScheduleEle
+              time="02:15 PM – 04:00 PM"
+              event="Optimize It Competition"
+              description="Venue: G04, New Annex Building"
+            />
+            <ScheduleEle
+              time="02:15 PM – 04:00 PM"
+              event="Quiz Bowl Competition"
+              description="Venue: AN Roy Seminar Hall"
             />
             <ScheduleEle2
               time="04:00 PM – 05:00 PM"
               event="Workshop"
-              description="Practical Way of Making Lithium-Ion Batteries"
+              description="Practical Way of Making Lithium-Ion Batteries | Venue: G04, New Annex Building"
             />
             <ScheduleEle
-              time="05:00 PM – 05:30 PM"
-              event="Validator Function"
-              description="Concluding Session"
+              time="05:00 PM – 05:15 PM"
+              event="Prize Distribution"
+              description="Concluding Session | Venue: AN Roy Seminar Hall"
             />
           </div>
         </>
@@ -172,7 +167,7 @@ function Schedule() {
           </div>
         </>
       )} */}
-     
+
     </div>
   );
 }

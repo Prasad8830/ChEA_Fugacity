@@ -1,7 +1,7 @@
 const workshopDetails = [
   {
     title: "Simulation using COMSOL",
-    description1: "📅 Date & Time: 30th August, 02:00 PM – 04:00 PM",
+    description1: "📅 Date & Time: 30th August, 02:00 PM – 04:00 PM | Venue: CAPE Lab",
     description2: "Introduction to COMSOL Multiphysics (20 mins.)",
     description3: "Capability demonstration and module introduction specific to Chemical Engineering (Batteries, Fuel cell, Corrosion, electrochemistry) (40 mins)",
     description4: "Hands-on demo session (1 hour)",
@@ -11,7 +11,7 @@ const workshopDetails = [
   },
   {
     title: "Practical Way of Making Lithium-Ion Batteries",
-    description1: "📅 Date & Time: 30th August, 04:00 PM – 05:00 PM",
+    description1: "📅 Date & Time: 30th August, 04:00 PM – 05:00 PM | Venue: G04, new annex building",
     description2: "Dive into the practical aspects of lithium-ion battery manufacturing in this hands-on workshop focused on real-world applications.",
     description3: "Learn about the key components of lithium-ion batteries including cathodes, anodes, electrolytes, and separators, and understand their roles in battery performance.",
     description4: "This workshop will guide you through the step-by-step process of battery assembly, from electrode preparation to cell packaging and testing.",
