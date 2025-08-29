@@ -2,10 +2,10 @@ const workshopDetails = [
   {
     title: "Simulation using COMSOL",
     description1: "📅 Date & Time: 30th August, 02:00 PM – 04:00 PM | Venue: CAPE Lab",
-    description2: "Introduction to COMSOL Multiphysics (20 mins.)",
-    description3: "Capability demonstration and module introduction specific to Chemical Engineering (Batteries, Fuel cell, Corrosion, electrochemistry) (40 mins)",
-    description4: "Hands-on demo session (1 hour)",
-    description5: "A trial version of COMSOL Multiphysics will be provided to all the attendees and registrants to explore the software.",
+    description2: "Introduction to COMSOL Multiphysics (20 mins.). Capability demonstration and module introduction specific to Chemical Engineering (Batteries, Fuel cell, Corrosion, electrochemistry) (40 mins)",
+    description3: "Hands-on demo session (1 hour). A trial version of COMSOL Multiphysics will be provided to all the attendees and registrants to explore the software.",
+    description4: "Download Link: https://www.comsol.com/product-download",
+    description5: "Passcode: 9FF73FDFF7F57F3D1-PTIN-250912-16084762-93F738088E6A",
     url1: "/images/comsol-workshop.jpg", // You'll need to add this image
     link: "#comsol-workshop"
   },
